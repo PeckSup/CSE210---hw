@@ -1,9 +1,12 @@
 using System;
+using System.IO;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Sandbox World!");
+        DateTime theCurrentTime = DateTime.Now;
+        string dateText = theCurrentTime.ToShortDateString();
+        Console.WriteLine(dateText);
     }
 }
