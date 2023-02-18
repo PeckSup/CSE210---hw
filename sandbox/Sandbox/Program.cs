@@ -5,8 +5,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        DateTime theCurrentTime = DateTime.Now;
-        string dateText = theCurrentTime.ToShortDateString();
-        Console.WriteLine(dateText);
+        string please = "length";
+        please += "I beg of you";
+        Console.WriteLine(please);
     }
 }
